@@ -1,1 +1,14 @@
 # trouble-shoot-of-windows-server-restart-
+IF YOU HAVE MATCH THESE FOLLOWING CONDITIONS AND RESTART THE SERVER 
+1. WHEN YOU INSTALLED NEW SERVER ON YOUR ORGANIZATION IT AUTOMATICALLY RESTART ON EVERY HOUR.
+2. U DONT HAVE KEY FOR ACTIVATION.
+3. IT IS NOT HARDWARE PROBLEM.
+TRY THIS SOLUTION
+1. USE slgmr to activate the windows for temporarily.
+2. USE slgmr command activate server for 7 days and solves problem temporarliy.
+COMMAND
+slgmr.exe /rearm
+or 
+ACTIVATE WITH ORGINAL KEY
+or 
+USE KMS ON U R ORGANIZATION
